@@ -1,10 +1,20 @@
 # 🌿 Plant Disease Classifier — ResNet18 Fine-tuned on PlantVillage
+A deep learning model that classifies **38 plant diseases** across 14 crop species with **99.07% accuracy**, built using transfer learning on a pretrained ResNet18 backbone.
 <img width="1095" height="639" alt="Capture d&#39;écran 2026-04-25 212336" src="https://github.com/user-attachments/assets/a17ecda3-811a-46c3-b85f-03b3391ae42f" />
 
-A deep learning model that classifies **38 plant diseases** across 14 crop species with **99.07% accuracy**, built using transfer learning on a pretrained ResNet18 backbone.
+---
+## Demo
+https://huggingface.co/spaces/eyalatiri/Plant-disease-classifier 
+
+> Upload a leaf image → get instant disease diagnosis with confidence scores
+
+```
+Tomato Early Blight     94.3%  ████████████
+Tomato Late Blight       4.1%  ██
+Tomato Bacterial Spot    1.2%  █
+```
 
 ---
-
 ## Results
 
 | Metric | Score |
@@ -19,18 +29,7 @@ A deep learning model that classifies **38 plant diseases** across 14 crop speci
 
 ---
 
-## Demo
-https://huggingface.co/spaces/eyalatiri/Plant-disease-classifier 
 
-> Upload a leaf image → get instant disease diagnosis with confidence scores
-
-```
-Tomato Early Blight     94.3%  ████████████
-Tomato Late Blight       4.1%  ██
-Tomato Bacterial Spot    1.2%  █
-```
-
----
 
 ## Methodology
 
