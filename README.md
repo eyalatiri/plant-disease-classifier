@@ -1,4 +1,5 @@
 # 🌿 Plant Disease Classifier — ResNet18 Fine-tuned on PlantVillage
+<img width="1095" height="639" alt="Capture d&#39;écran 2026-04-25 212336" src="https://github.com/user-attachments/assets/a17ecda3-811a-46c3-b85f-03b3391ae42f" />
 
 A deep learning model that classifies **38 plant diseases** across 14 crop species with **99.07% accuracy**, built using transfer learning on a pretrained ResNet18 backbone.
 
